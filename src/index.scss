@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./assets/fonts/Ubuntu-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./assets/fonts/Ubuntu-Medium.ttf");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url("./assets/fonts/Ubuntu-Regular.ttf");
+  font-weight: regular;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
